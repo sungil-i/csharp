@@ -23,14 +23,14 @@ namespace HelloWorld
 
                 // 박스 메뉴 출력 (18자 폭에 맞춰 정렬)
                 Console.WriteLine("┌────────────────┐"); // 상단 (─ 16개)
-                for (int i = 1; i <= 20; i++)
+                for (int i = 1; i <= 10; i++)
                 {
                     // " 1: Example 01 " -> 총 16자
                     Console.WriteLine($"│ {i,2}: Example {i:D2} │");
                 }
                 Console.WriteLine("│  0: Exit       │"); // "  0: Exit       " -> 총 16자
                 Console.WriteLine("└────────────────┘"); // 하단 (─ 16개)
-                Console.Write("\n실행할 예제 번호를 입력하세요 (0~20): ");
+                Console.Write("\n실행할 예제 번호를 입력하세요 (0~10): ");
 
                 string? input = Console.ReadLine();
 
