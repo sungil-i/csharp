@@ -9,11 +9,11 @@ namespace HelloWorld
         // 일반 멤버 함수
         public override void move()
         {
-            Console.WriteLine("좌우로 움직인다.");
+            Console.WriteLine("[자식 Player 클래스] 좌우로 움직인다.");
         }
         public override void shoot()
         {
-            Console.WriteLine("위쪽으로 미사일을 쏜다.");
+            Console.WriteLine("[자식 Player 클래스] 위쪽으로 미사일을 쏜다.");
         }
     }
 }

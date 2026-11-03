@@ -17,7 +17,7 @@ namespace HelloWorld
             player.move();
             player.shoot();
             enemy.move();
-            enemy.shoot():
+            enemy.shoot();
         }
     }
 }
