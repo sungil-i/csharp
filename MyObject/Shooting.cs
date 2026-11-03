@@ -10,6 +10,7 @@ namespace HelloWorld
         // 생성자 멤버 함수
         public Shooting(int my_hp)
         {
+            Console.WriteLine("MonoBehaviour 유니티 객체 상속받음!");
             this.hp = my_hp;
         }
         // 일반 멤버 함수
